@@ -1,0 +1,81 @@
+<html>
+
+<head>
+  <title> Seating Chart </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="seat.css">
+
+  <style id="stl">
+
+
+  </style>
+
+  <script src="seat.js"></script>
+
+</head>
+<body>
+  <h1>Seating Chart</h1>
+  Choose image for space here:
+    <input type='file' id='getval' name="background-image" onchange="readURL(event)" /><br/><br/>
+    <div id='clock'>
+
+      <div class="grid-container" id="ed">
+<!--
+        <div class="item1"><span class="tool1">open</span>
+        </div>
+        <div class="item2"><span class="tool2">open</span></div>
+        <div class="item3"><span class="tool3">open</span></div>
+        <div class="item4"><span class="tool4">open</span></div>
+        <div class="item5"><span class="tool5">open</span></div>
+        <div class="item6"><span class="tool6">open</span></div>
+        <div class="item7"><span class="tool7">open</span></div>
+        <div class="item8"><span class="tool8">open</span></div>
+        <div class="item9"><span class="tool9">open</span></div>
+      -->
+    </div>
+  </div>
+<br>
+
+<div id ='inpu'>
+  Enter the number of seats:
+<input id="created" type="number" name="number" placeholder="# of seats">
+<button id="create_text" onclick="create();">set</button><br><br>
+
+Enter Name:
+<input id="tex" type="text" name="text" placeholder="enter name">
+And Seat number:
+<input id="num" type="text" name="text" placeholder="seat number">
+
+<button id="displayText" onclick="seat();">set</button><br>
+</div>
+<!--
+<input id="text1" type="text" name="text" placeholder="Seat 1">
+<button id="displayText" onclick="seat1();">assign</button><br>
+
+
+<input id="text2" type="text" name="text" placeholder="Seat 2">
+<button id="displayText" onclick="seat2();">assign</button><br>
+
+<input id="text3" type="text" name="text" placeholder="Seat 3">
+<button id="displayText" onclick="seat3();">assign</button><br>
+
+<input id="text4" type="text" name="text" placeholder="Seat 4">
+<button id="displayText" onclick="seat4();">assign</button><br>
+
+<input id="text5" type="text" name="text" placeholder="Seat 5">
+<button id="displayText" onclick="seat5();">assign</button><br>
+
+<input id="text6" type="text" name="text" placeholder="Seat 6">
+<button id="displayText" onclick="seat6();">assign</button><br>
+
+<input id="text7" type="text" name="text" placeholder="Seat 7">
+<button id="displayText" onclick="seat7();">assign</button><br>
+
+<input id="text8" type="text" name="text" placeholder="Seat 8">
+<button id="displayText" onclick="seat8();">assign</button><br>
+
+<input id="text9" type="text" name="text" placeholder="Seat 9">
+<button id="displayText" onclick="seat9();">assign</button><br>
+-->
+</body>
+</html>

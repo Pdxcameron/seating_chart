@@ -1,0 +1,291 @@
+body{
+  background-color: white;\
+  position: fixed;
+  left: 20%;
+  overflow-y : auto;
+  font-size: 20px;
+}
+h1{
+  text-align: center;
+}
+#clock{
+  background-image:url('');
+  background-size:cover;
+	background-position: center;
+  margin:auto;
+	height: 600px; width: 600px;
+			}
+.grid-container {
+  display: grid;
+  height:600px; width:600px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.grid-container > div {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+
+}
+#getval{
+width: 300px;
+height: 20px;
+font-size: 20px;
+}
+
+#inpu{
+
+  font-size: 20px;
+}
+
+#created{
+  margin:auto;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+
+}
+#create_text{
+  margin:auto;
+  width: 75px;
+  height: 50px;
+  font-size: 20px;
+
+}
+#tex{
+  margin:auto;
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+}
+#num{
+  margin:auto;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+#displayText{
+  margin:auto;
+  width: 75px;
+  height: 50px;
+  font-size: 20px;
+}
+.item1 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.item1 .tool1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.item1:hover .tool1 {
+  visibility: visible;
+}
+
+
+
+
+.item2 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.item2 .tool2 {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.item2:hover .tool2 {
+  visibility: visible;
+}
+
+.item4 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.item3 .tool3 {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.item3:hover .tool3 {
+  visibility: visible;
+}
+
+.item4 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.item4 .tool4 {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.item4:hover .tool4 {
+  visibility: visible;
+}
+
+.item5 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.item5 .tool5 {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.item5:hover .tool5 {
+  visibility: visible;
+}
+
+.item6 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.item6 .tool6 {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.item6:hover .tool6 {
+  visibility: visible;
+}
+
+.item7 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.item7 .tool7 {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.item7:hover .tool7 {
+  visibility: visible;
+}
+
+.item8 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.item8 .tool8 {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.item8:hover .tool8 {
+  visibility: visible;
+}
+
+.item9 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.item9 .tool9 {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.item9:hover .tool9 {
+  visibility: visible;
+}
